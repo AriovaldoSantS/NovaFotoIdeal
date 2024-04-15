@@ -1,0 +1,24 @@
+.carrossel {
+    height: 300px;
+    background-color: gray;
+}
+
+.produtosPrincipais {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 250px;
+}
+
+.produtosPrincipais .produto {
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 200px;
+    width: 350px;
+}
+
+
+.camisas {
+    height: 300px;
+    background-color: gray;
+}
