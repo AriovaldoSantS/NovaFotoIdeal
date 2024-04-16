@@ -25,5 +25,26 @@
 
 
 .fixos {
-    width: 300px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.fixos .container {}
+
+.fixos .titulo {
+    color: red;
+    font-size: large;
+
+}
+
+.fixos .subTitulo {
+    color: black;
+    font-size: small;
+
+}
+
+.fixos .imgProdutos {
+    width: auto;
+    height: 40px;
 }

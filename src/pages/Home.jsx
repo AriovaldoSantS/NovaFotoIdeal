@@ -11,15 +11,34 @@ export default function Home() {
             <Menu />
             <body>
                 <div className="carrossel">
-                    Imagens
                 </div>
 
                 <div className="fixos">
                     <div className="container">
-                        <img src={caminhao} alt="" className="freteGratis" />
+                        <img src={caminhao} alt="" className="imgProdutos" />
                         <p className="titulo">Do Oiapoque ao Chuí</p>
-                        <p className="subtitulo">Entregas em Todo o Brasil</p>
+                        <p className="subTitulo">Entregas em Todo o Brasil</p>
                     </div>
+
+                    <div className="container">
+                        <img src={cartao} alt="" className="imgProdutos" />
+                        <p className="titulo">Parcelamento</p>
+                        <p className="subTitulo">Compras com até 6x sem juros</p>
+                    </div>
+
+                    <div className="container">
+                        <img src={caixas} alt="" className="imgProdutos" />
+                        <p className="titulo">Compre no Atacado</p>
+                        <p className="subTitulo">Em até 6x sem juros</p>
+                    </div>
+
+                    <div className="container">
+                        <img src={escudo} alt="" className="imgProdutos" />
+                        <p className="titulo">Segurança</p>
+                        <p className="subTitulo">Loja com SSL de proteção</p>
+                    </div>
+
+
                 </div>
 
                 <div className="produtosPrincipais">
