@@ -11,12 +11,9 @@ export default function Home() {
                 </div>
 
                 <div className="fixos">
-                    <ul className="listaFixos">
-                        <li>Frete Grátis</li>
-                        <li>Entrega Agil</li>
-                        <li>pague com Cartão</li>
-                        <li>Segurança</li>
-                    </ul>
+                    <div className="container">
+                        <img src="" alt="" className="freteGratis" />
+                    </div>
                 </div>
 
                 <div className="produtosPrincipais">
