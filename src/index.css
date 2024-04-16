@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   font-family: Arial;
+  /* border: 1px solid red; */
 }
 
 .pix {
@@ -9,14 +10,16 @@
   height: 20px;
   text-align: center;
   justify-content: center;
-  background-color: gray;
-  color: white;
+  background-color: #F24150;
+  color: yellow;
   font-size: large;
 }
 
+
+
 .menu {
-  background-color: black;
-  color: gray;
+  background-color: #295FA6;
+  color: #F29829;
   list-style: none;
   padding: 10px;
 }

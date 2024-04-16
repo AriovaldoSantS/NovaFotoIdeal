@@ -23,28 +23,36 @@
     background-color: gray;
 }
 
-
 .fixos {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
 
 }
 
-.fixos .container {}
+.container {
+    text-align: center;
+    margin: 0 2px;
+}
 
-.fixos .titulo {
-    color: red;
+.container .iconContainer {
+    display: flex;
+    padding: 0px 20px;
+    justify-items: center;
+    align-items: center;
+}
+
+.container .iconContainer h3 {
     font-size: large;
+    color: #295FA6;
 
 }
 
-.fixos .subTitulo {
-    color: black;
-    font-size: small;
-
+.container img {
+    height: 50px;
 }
 
-.fixos .imgProdutos {
-    width: auto;
-    height: 40px;
+.iconText {
+    margin: 5px;
+    padding: 5px;
 }

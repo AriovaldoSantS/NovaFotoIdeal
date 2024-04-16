@@ -13,33 +13,59 @@ export default function Home() {
                 <div className="carrossel">
                 </div>
 
+
                 <div className="fixos">
                     <div className="container">
-                        <img src={caminhao} alt="" className="imgProdutos" />
-                        <p className="titulo">Do Oiapoque ao Chuí</p>
-                        <p className="subTitulo">Entregas em Todo o Brasil</p>
+                        <div className="iconContainer">
+                            <div className="iconImage">
+                                <img src={caminhao} alt="" />
+                            </div>
+                            <div className="iconText">
+                                <h3>Do Oiapoque ao Chuí</h3>
+                                <h4>Todo o Brasil</h4>
+                            </div>
+                        </div>
                     </div>
 
                     <div className="container">
-                        <img src={cartao} alt="" className="imgProdutos" />
-                        <p className="titulo">Parcelamento</p>
-                        <p className="subTitulo">Compras com até 6x sem juros</p>
+                        <div className="iconContainer">
+                            <div className="iconImage">
+                                <img src={caixas} alt="" />
+                            </div>
+                            <div className="iconText">
+                                <h3>Compre em atacado</h3>
+                                <h4>Desconto acima de 10 unid</h4>
+                            </div>
+                        </div>
                     </div>
 
                     <div className="container">
-                        <img src={caixas} alt="" className="imgProdutos" />
-                        <p className="titulo">Compre no Atacado</p>
-                        <p className="subTitulo">Em até 6x sem juros</p>
+                        <div className="iconContainer">
+                            <div className="iconImage">
+                                <img src={cartao} alt="" />
+                            </div>
+                            <div className="iconText">
+                                <h3>Parcelamento</h3>
+                                <h4>Em até 6x sem juros</h4>
+                            </div>
+                        </div>
                     </div>
 
                     <div className="container">
-                        <img src={escudo} alt="" className="imgProdutos" />
-                        <p className="titulo">Segurança</p>
-                        <p className="subTitulo">Loja com SSL de proteção</p>
+                        <div className="iconContainer">
+                            <div className="iconImage">
+                                <img src={escudo} alt="" />
+                            </div>
+                            <div className="iconText">
+                                <h3>Segurança</h3>
+                                <h4>Total Segurançana sua compra</h4>
+                            </div>
+                        </div>
                     </div>
 
 
                 </div>
+
 
                 <div className="produtosPrincipais">
                     <div className="produto1">
@@ -51,6 +77,10 @@ export default function Home() {
                     <div className="produto3">
                         <button className="produto">Kit Festa</button>
                     </div>
+                </div>
+
+                <div className="camisas">
+                    <div className="exCamisas">testes</div>
                 </div>
 
                 <div className="camisas">
