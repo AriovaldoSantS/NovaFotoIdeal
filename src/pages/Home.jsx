@@ -1,5 +1,9 @@
 import Menu from "../components/Menu"
 import Footer from "../components/Footer"
+import caixas from "../assets/icon/caixas.png"
+import caminhao from "../assets/icon/caminhao.png"
+import escudo from "../assets/icon/escudo.png"
+import cartao from "../assets/icon/sem-contato.png"
 
 export default function Home() {
     return (
@@ -12,7 +16,9 @@ export default function Home() {
 
                 <div className="fixos">
                     <div className="container">
-                        <img src="" alt="" className="freteGratis" />
+                        <img src={caminhao} alt="" className="freteGratis" />
+                        <p className="titulo">Do Oiapoque ao Chuí</p>
+                        <p className="subtitulo">Entregas em Todo o Brasil</p>
                     </div>
                 </div>
 
