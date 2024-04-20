@@ -1,0 +1,50 @@
+.pix {
+    padding: 10px;
+    height: 20px;
+    text-align: center;
+    justify-content: center;
+    background-color: #F24150;
+    color: yellow;
+    font-size: large;
+}
+
+
+
+.menu {
+    background-color: #295FA6;
+    color: #F29829;
+    list-style: none;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.menu .logoImg {
+    height: 80px;
+    margin-left: 50px;
+}
+
+.menu .linkBase {
+    float: right;
+
+}
+
+.menu .link {
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+}
+
+.pages {
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    margin-top: 5px;
+}
+
+.pages .link {
+    float: left;
+    margin-left: 5%;
+    text-decoration: none;
+    color: black;

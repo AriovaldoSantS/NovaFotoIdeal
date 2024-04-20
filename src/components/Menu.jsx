@@ -1,25 +1,28 @@
 import logo from '../assets/icon/400ppi/Ativo 1.png'
+import { Link } from 'react-router-dom'
 
 function Menu() {
     return (
         <>
             <div className="pix">PAGANDO COM PIX VOCÊ GANHA 5% OFF</div>
             <div className="menu">
-                <a href="/"><img src={logo} alt="" className="logo" /></a>
-                <ul className="nav">
-                    <li><a href="/atendimento">Atendimento</a></li>
-                    <li><a href="/rastrear">Rastrear Produto</a></li>
-                    <li><a href="/conta">Minha Conta</a></li>
-                    <li><a href="/carrinho">Cart</a></li>
-                </ul>
-            </div>
+                <img src={logo} alt="" className="logoImg" />
+                <h1>L.U.A Ateliê</h1>
+                <div className="linkBase">
+                    <Link className='link' to='/atendimento'>Atendimento</Link>
+                    <Link className='link' to='/rastrear'>Rastrear Produto</Link>
+                    <Link className='link' to='/conta'>Minha Conta</Link>
+                    <Link className='link' to='/carrinho'>Cart</Link>
+                </div>
+
+            </div >
 
 
             <div className="pages">
-                <li><a href="/" className='home'>Home</a></li>
-                <li><a href="/categoria" className='categoria'>Categoria</a></li>
-                <li><a href="/promocao" className='promocao'>Promoção</a></li>
-                <li><a href="fale" className='contacto'>Fale Conosco</a></li>
+                <Link className='link' to='/'>Home</Link>
+                <Link className='link' to='/categoria'>Categoria</Link>
+                <Link className='link' to='/promocao'>Promoção</Link>
+                <Link className='link' to='/fale'>Fale Conosco</Link>
             </div>
         </>
     )

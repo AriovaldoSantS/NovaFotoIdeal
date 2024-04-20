@@ -5,64 +5,6 @@
   /* border: 1px solid red; */
 }
 
-.pix {
-  padding: 10px;
-  height: 20px;
-  text-align: center;
-  justify-content: center;
-  background-color: #F24150;
-  color: yellow;
-  font-size: large;
-}
-
-
-
-.menu {
-  background-color: #295FA6;
-  color: #F29829;
-  list-style: none;
-  padding: 10px;
-}
-
-.menu .logo {
-  height: 50px;
-  margin-left: 30px;
-}
-
-.menu .nav {
-  list-style: none;
-  padding-left: 0px;
-  display: flex;
-  float: right;
-  margin-top: 10px;
-}
-
-.menu .nav li {
-  float: left;
-  margin-left: 30px;
-}
-
-.menu li a {
-  text-decoration: none;
-  color: white;
-}
-
-.pages {
-  list-style: none;
-  justify-content: center;
-  display: flex;
-  margin-top: 5px;
-}
-
-.pages li {
-  float: left;
-  margin-left: 30px;
-}
-
-.pages li a {
-  text-decoration: none;
-  color: black;
-}
 
 .footer {
   background-color: black;
